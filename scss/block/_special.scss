@@ -88,6 +88,10 @@
     display: flex;
     justify-content: space-around;
     text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
     li{
         background-color: $hoverNav;
         border-radius: 50%;
