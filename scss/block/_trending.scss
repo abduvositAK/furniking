@@ -1,0 +1,95 @@
+.trending {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.trending__nav {
+    justify-content: space-evenly;
+    padding-top: 48px;
+}
+
+.trending__nav-item a {
+    text-decoration: none;
+    color: $lightGrey;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+
+}
+
+.trending__nav-item a:hover {
+    color: $hoverNav;
+}
+
+.trending__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    color: $colorTitle;
+}
+
+.trending__list {
+    padding-top: 48px;
+    justify-content: space-between;
+}
+
+.trending__item {
+    position: relative;
+    width: 25%;
+    padding: 16px 0!important;
+    line-height: 1.5;
+
+    img {
+        width: 250px;
+        height: 250px;
+    }
+
+    h4 {
+        font-weight: 400;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: rgba(117, 117, 117, 0.71);
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 20px;
+        color: $colorTitle;
+        font-family: 'Rubik', sans-serif;
+    }
+
+    .price-span {
+        @include price;
+    }
+
+    .line__span {
+        @include line;
+    }
+}
+
+.treding__new {
+    position: absolute;
+    top: 16px;
+    left: 1px;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 8px 16px;
+    text-align: center;
+    background: #00B7F1;
+    color: #fff;
+    border-radius: 0px 0px 5px 0px;
+}
+
+.treding__sale {
+    position: absolute;
+    top: 16px;
+    left: 1px;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 8px 16px;
+    text-align: center;
+    background: #7AC751;
+    color: #fff;
+    border-radius: 0px 0px 5px 0px;
+}
