@@ -3,7 +3,33 @@
     padding-bottom: 64px;
 }
 
+.collection__top-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .collection_toptext {
+        padding-left: 16px;
+
+        h4 {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 26px;
+            color: $colorTitle
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 26px;
+            color: $colorTitle;
+            opacity: 0.7;
+        }
+    }
+}
+
 .collection__list {
+    padding-top: 48px;
     justify-content: space-between;
 }
 
@@ -27,14 +53,16 @@
         line-height: 26px;
         color: $colorTitle
     }
-    p{
+
+    p {
         font-weight: 600;
-font-size: 20px;
-line-height: 26px;
-padding-top: 16px;
-padding-bottom: 16px;
-color: #7AC751;
+        font-size: 20px;
+        line-height: 26px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        color: #7AC751;
     }
+
     a {
         font-weight: 600;
         font-size: 14px;

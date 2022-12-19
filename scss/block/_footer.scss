@@ -38,3 +38,25 @@ footer {
 .w-320 {
     width: 320px;
 }
+
+.footer__bottom-item span{
+    font-weight: 400;
+font-size: 14px;
+line-height: 14px;
+color: $colorTitle
+}
+.footer__text span{
+    padding-right: 24px;
+}
+.footer__text span:nth-child(3){
+    padding: 0;
+}
+
+.pb-32{
+    padding-bottom: 32px;
+}
+
+.border-top{
+    border-top: 1px solid $colorTitle;
+    padding-top: 32px;
+}

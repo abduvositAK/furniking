@@ -24,7 +24,30 @@ ul {
   padding-bottom: 64px;
 }
 
+.collection__top-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.collection__top-item .collection_toptext {
+  padding-left: 16px;
+}
+.collection__top-item .collection_toptext h4 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #555555;
+}
+.collection__top-item .collection_toptext p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  color: #555555;
+  opacity: 0.7;
+}
+
 .collection__list {
+  padding-top: 48px;
   justify-content: space-between;
 }
 
@@ -488,4 +511,28 @@ footer {
 
 .w-320 {
   width: 320px;
+}
+
+.footer__bottom-item span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #555555;
+}
+
+.footer__text span {
+  padding-right: 24px;
+}
+
+.footer__text span:nth-child(3) {
+  padding: 0;
+}
+
+.pb-32 {
+  padding-bottom: 32px;
+}
+
+.border-top {
+  border-top: 1px solid #555555;
+  padding-top: 32px;
 }/*# sourceMappingURL=main.css.map */
