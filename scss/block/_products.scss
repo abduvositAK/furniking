@@ -32,7 +32,7 @@
 .products__item {
     position: relative;
     width: 25%;
-    padding: 16px 0!important;
+    padding: 16px 0 32px!important;
     line-height: 1.5;
 
     img {
@@ -99,4 +99,11 @@
     background: #ff6868;
     color: #fff;
     border-radius: 0px 0px 5px 0px;
+}
+.products__btn{
+    margin-left: 550px;
+    @include showBtn;
+}
+.products__btn:hover{
+    opacity: .85;
 }
