@@ -1,0 +1,31 @@
+.header__top {
+    background-color: $hoverNav;
+    justify-content: space-between;
+    
+}
+
+.header__top-item {
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+
+    a {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #fff
+    }
+    select{
+        border: none;
+        background-color: $hoverNav;
+        color: #fff;
+    }
+    select:focus{
+        outline: none;
+    }
+    span{
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+}

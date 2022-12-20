@@ -19,6 +19,38 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
+.header__top {
+  background-color: #7AC751;
+  justify-content: space-between;
+}
+
+.header__top-item {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.header__top-item a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+}
+.header__top-item select {
+  border: none;
+  background-color: #7AC751;
+  color: #fff;
+}
+.header__top-item select:focus {
+  outline: none;
+}
+.header__top-item span {
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
 .collection {
   padding-top: 64px;
   padding-bottom: 64px;
